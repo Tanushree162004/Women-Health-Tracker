@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    background: lavender;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 8%;
+    
+}
+
+
+
+.hidden {
+    display: none;
+    top: 10%;
+    background-image: none;
+}
+.motion {
+    transition: transform 0.3s ease-in-out;
+}
+.motion:hover {
+    transform: scale(1.05);
+}
+.btn {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+}
+.btn:hover {
+    background: linear-gradient(90deg, #764ba2, #667eea);
+
+}
